@@ -1,0 +1,54 @@
+.container{
+    max-width: 1120px;
+    margin:auto;
+    padding: 0 2rem;
+    padding-bottom: 5rem;
+}
+
+
+.post{
+    max-width: 720px;
+    margin: 5rem auto 0;
+
+    img{
+        max-width: 100%;
+        max-height: 410px;
+        border-radius: 15px;
+    }
+
+    h1{
+        color: var(--white);
+        font-size: 2rem;
+        font-weight: 900px;
+    }
+
+    time{
+        color: var(--gray-100);
+        margin-top: 1.5rem;
+        font-size: 1rem;
+        display: block;
+    }
+}
+
+.postcontent{
+    color: var(--white);
+    margin-top: 2rem;
+    line-height: 2rem;
+    font-size: 1.125rem;
+
+    iframe{
+        width: 100%;
+        min-height: 350px;
+        padding: 0.5rem 0;
+    }
+
+    p,ul{
+        margin: 1.5rem 0;
+        text-align: justify;
+    }
+
+   
+  
+
+
+}
